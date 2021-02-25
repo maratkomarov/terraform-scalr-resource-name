@@ -6,5 +6,6 @@ resource "random_string" "name" {
 
 output "name" {
   value = "${var.prefix}${random_string.name.id}"
+  description = "The generated resource name"
 }
 
