@@ -8,9 +8,7 @@ variable "prefix" {
 variable "keepers" {
   description = "Arbitrary map of values that, when changed, will trigger a new id to be generated."
   type        = map
-  default     = {
-    name = "value"
-  }
+  default     = {}
 }
 
 variable "length" {
