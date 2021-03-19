@@ -1,1 +1,4 @@
-variable "name" {}
+variable "name" {
+  sensitive   = true
+  default = "test"
+}
