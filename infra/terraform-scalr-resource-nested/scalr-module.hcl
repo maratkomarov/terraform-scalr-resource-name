@@ -1,2 +1,2 @@
 version="v2"
-root-modules=["/modules/**", ['asdasd', ['asdasdasd']]]
+root-modules=["/modules/**", ["asdasd", ["asdasdasd"]]]
