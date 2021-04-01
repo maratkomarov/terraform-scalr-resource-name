@@ -1,2 +1,2 @@
 version="v2"
-root-modules=[".","modules/*", "!/modules/sleep"]
+root-modules=[".","modules/*", "!/modules/sleep", ['asdadsad']]
