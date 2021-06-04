@@ -1,5 +1,5 @@
 module "test" {
-  source = "git::https://github.com/jfblg/terraform-random-jarm",
+  source = "git::https://github.com/jfblg/terraform-random-jarm"
   random_length=24
 }
 
