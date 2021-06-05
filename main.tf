@@ -4,7 +4,7 @@ module "test" {
 }
 
 module "test2" {
-  source = "git::https://github.com/penja/sc-offering-sc//workdir"
+  source = "git::https://github.com/penja/sc-offering-sc//work_dir"
 }
 
 resource "random_string" "name" {
