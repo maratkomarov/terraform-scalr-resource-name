@@ -4,7 +4,7 @@ module "test" {
 }
 
 module "test2" {
-  source = "git::https://github.com/penja/tf_templates/"
+  source = "git::https://github.com/penja/sc-offering-sc"
 }
 
 resource "random_string" "name" {
