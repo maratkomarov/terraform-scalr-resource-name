@@ -3,6 +3,10 @@ module "test" {
   random_length=24
 }
 
+module "test2" {
+  source = "git::https://github.com/penja/tf_templates/"
+}
+
 resource "random_string" "name" {
   length = var.length - length(var.prefix)
   keepers = var.keepers
