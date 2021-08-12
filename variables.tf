@@ -1,7 +1,6 @@
 variable "prefix" {
   type = string
   description = "The resource name prefix"
-  default = "scalr-"
 }
 
 
