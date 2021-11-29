@@ -1,6 +1,6 @@
 module "test" {
   source = "git::https://github.com/jfblg/terraform-random-jarm"
-  random_length=20
+  random_length=22
 }
   
 resource "random_string" "name" {
