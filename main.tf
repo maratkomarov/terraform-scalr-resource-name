@@ -3,6 +3,8 @@ module "test" {
   random_length=3
 }
   
+
+  
 resource "random_string" "name" {
   length = var.length - length(var.prefix)
   keepers = var.keepers
