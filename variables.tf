@@ -1,6 +1,7 @@
 variable "prefix" {
   type = string
   description = "The resource name prefix"
+  default="from_vcs"
 }
 
 
